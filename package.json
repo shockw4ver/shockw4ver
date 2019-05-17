@@ -1,0 +1,10 @@
+{
+  "name": "shockw4ver",
+  "version": "1.0.0",
+  "description": "Some tools to make you happy",
+  "main": "index.js",
+  "repository": "https://github.com/shockw4ver/shockw4ver.git",
+  "author": "Samuel",
+  "license": "MIT",
+  "private": false
+}
