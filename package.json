@@ -1,6 +1,6 @@
 {
   "name": "shockw4ver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Some tools to make you happy",
   "main": "index.js",
   "repository": "https://github.com/shockw4ver/shockw4ver.git",
@@ -8,11 +8,11 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "webpack"
+    "build": "gulp compile"
   },
-  "directories": {
-    "lib": "dist"
-  },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0"
