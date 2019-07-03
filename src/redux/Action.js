@@ -25,6 +25,10 @@ export default class Action {
     return this
   }
 
+  getNamespace () {
+    return this.__namespace__
+  }
+
   namespacify (actionType) {
     this[`$${actionType}`] = `${this.__namespace__}/${this[actionType]}`
   }
